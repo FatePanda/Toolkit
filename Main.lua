@@ -1,7 +1,4 @@
-local Op = _G.SOption
-_G.SOption = nil
-
-if Op then
+if _G.SOption then
     if Op == 1 then
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Keyless-mobile-dex-17888"))()
     end
@@ -15,3 +12,4 @@ if Op then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main/Main.lua"))()
     end
 end
+_G.SOption = nil
